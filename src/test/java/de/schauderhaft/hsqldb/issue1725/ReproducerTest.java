@@ -13,6 +13,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+
+/**
+ * the two test methods are identically, except for order and name.
+ * Yet the first one succeeds while the second one fails.
+ */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class ReproducerTest {
 
